@@ -1,0 +1,83 @@
+
+public class TimeConversion {
+    
+    /**
+     * Constructor
+     */
+    TimeConversion(){
+
+    }
+
+
+    /**
+     * TO DO: showDecaseconds method
+     * Given a number of seconds calculates 
+     * and display decaseconds
+    */
+    // add your code here
+    void showDecaseconds(int numSeconds){
+        // 1sec / 10 = .10
+       double decaseconds = numSeconds * .10;
+       System.out.print("A Decasecond is equal to 10 seconds, The conversion from ");
+       System.out.println( numSeconds + " seconds to decaseconds is = " + decaseconds);
+    }
+
+
+    /**
+     * TO DO: showJiffies method
+     * Given a number of seconds calculates 
+     * and display jiffies
+    */
+    // add your code here
+    void showJiffies(int numSeconds){
+        // 1 sec * 60 = 60
+        int jiffy = numSeconds * 60;
+        System.out.print("A Jiffy is equal to 10 miliseconds, The conversion from ");
+        System.out.println( numSeconds + " seconds to jiffies is = " + jiffy);
+    }
+
+
+    /** 
+     * TO DO: showNewYorkMinutes method
+     * Given a number of seconds calculates 
+     * and display New York minutes
+    */
+    // add your code here
+    void showNewYorkMinutes(int numSeconds){
+        // 1/20th of sec = .05
+        double newYorkMinutes = numSeconds * .05;
+        System.out.print("A New York Minute is equal to 1/20 of a second, The conversion from ");
+        System.out.println( numSeconds + " seconds to New York Minutes is = " + newYorkMinutes);
+    }
+
+    /**
+     * TO DO: showNanoCenturies method
+     * Given a number of seconds calculates 
+     * and display Nanocenturies
+    */ 
+    // add your code here
+    void showNanoCenturies(int numSeconds){
+        // 1 sec / 3.156 
+        double nanoCenturies = numSeconds / 3.156;
+        System.out.print("A Nanocentury is equal to 3.156 seconds, The conversion from ");
+        System.out.println( numSeconds + " seconds to Nanocentury is = " + nanoCenturies);
+    }
+
+     /**
+     * TO DO: showScaramuccis method
+     * Given a number of seconds calculates 
+     * and display Scaramuccis
+    */ 
+    // add your code here
+    void showScaramuccis(int numSeconds){
+        // 11 days = (11 * 86400 = 950,400
+        double Scaramuccis = (double)numSeconds / 950400;
+        System.out.print("A Scaramucci is equal to 11 days, The conversion from ");
+        System.out.println( numSeconds + " seconds to a Scaramucci is = " + Scaramuccis);
+    }
+
+
+
+
+    
+}//end class
