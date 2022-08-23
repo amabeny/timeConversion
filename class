@@ -8,13 +8,6 @@ public class TimeConversion {
 
     }
 
-
-    /**
-     * TO DO: showDecaseconds method
-     * Given a number of seconds calculates 
-     * and display decaseconds
-    */
-    // add your code here
     void showDecaseconds(int numSeconds){
         // 1sec / 10 = .10
        double decaseconds = numSeconds * .10;
@@ -22,13 +15,6 @@ public class TimeConversion {
        System.out.println( numSeconds + " seconds to decaseconds is = " + decaseconds);
     }
 
-
-    /**
-     * TO DO: showJiffies method
-     * Given a number of seconds calculates 
-     * and display jiffies
-    */
-    // add your code here
     void showJiffies(int numSeconds){
         // 1 sec * 60 = 60
         int jiffy = numSeconds * 60;
@@ -37,12 +23,6 @@ public class TimeConversion {
     }
 
 
-    /** 
-     * TO DO: showNewYorkMinutes method
-     * Given a number of seconds calculates 
-     * and display New York minutes
-    */
-    // add your code here
     void showNewYorkMinutes(int numSeconds){
         // 1/20th of sec = .05
         double newYorkMinutes = numSeconds * .05;
@@ -50,12 +30,6 @@ public class TimeConversion {
         System.out.println( numSeconds + " seconds to New York Minutes is = " + newYorkMinutes);
     }
 
-    /**
-     * TO DO: showNanoCenturies method
-     * Given a number of seconds calculates 
-     * and display Nanocenturies
-    */ 
-    // add your code here
     void showNanoCenturies(int numSeconds){
         // 1 sec / 3.156 
         double nanoCenturies = numSeconds / 3.156;
@@ -63,12 +37,6 @@ public class TimeConversion {
         System.out.println( numSeconds + " seconds to Nanocentury is = " + nanoCenturies);
     }
 
-     /**
-     * TO DO: showScaramuccis method
-     * Given a number of seconds calculates 
-     * and display Scaramuccis
-    */ 
-    // add your code here
     void showScaramuccis(int numSeconds){
         // 11 days = (11 * 86400 = 950,400
         double Scaramuccis = (double)numSeconds / 950400;
